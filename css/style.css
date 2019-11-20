@@ -132,12 +132,15 @@ a.button {
   padding-bottom: 10px;
 }
 
-.container {
+.container,
+.container-bottom {
   width: 85%;
   margin: 0 auto;
+  padding: 20px 0;
 }
 
-.container::after {
+.container::after,
+.container-bottom::after {
   content: "";
   display: table;
   clear: both;
@@ -170,6 +173,36 @@ a.button {
   color: #92C62C;
 }
 
+.container-bottom {
+  border-top: 1px solid lightgrey;
+}
+
+.main-wrapper .container-bottom .col {
+  float: left;
+  width: 50%;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.main-wrapper .container-bottom .col-dx {
+  text-align: left;
+}
+
+.text-wrapper {
+  width: 60%;
+}
+
+.text-wrapper p {
+  color: lightgrey;
+  font-weight: 300px;
+  padding: 20px 0;
+}
+
+.container-bottom .mountain img {
+  width: 60%;
+}
+
 .page-footer {
   background-color: #d3d3d3;
+  height: 100px;
 }
