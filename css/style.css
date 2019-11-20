@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+}
+
+.page-header {
+  height: 450px;
+  background-image: url("../img/oldman.png");
+  background-size: 55%;
+  background-position: 110% 110%;
+  background-repeat: no-repeat;
+  background-color: #0c325a;
+  color: #fff;
+}
+
+.header-nav {
+  width: 85%;
+  height: 80px;
+  line-height: 80px;
+  margin: 0 auto;
+}
+
+.header-nav::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.list-inline {
+  list-style: none;
+}
+
+.header-nav li {
+  display: inline;
+  padding: 0 10px;
+}
+
+.header-nav-left li:first-child {
+  padding-left: 0;
+}
+
+ul.list-inline .logo-link {
+  vertical-align: middle;
+}
+
+.header-nav a {
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.logo-link {
+  margin-right: 12px;
+}
+
+.header-nav-left {
+  float: left;
+}
+
+.header-nav-right {
+  float: right;
+}
+
+.banner {
+  position: relative;
+  width: 85%;
+  height: 370px;
+  margin: 0 auto;
+}
+
+.testo-banner {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.testo-banner>h1 {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+a.button {
+  text-decoration: none;
+  display: inline-block;
+  line-height: 22px;
+  padding: 12px;
+  /* background-color: lightgreen; */
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.header-nav-right ul .nav-button {
+  background-color: none;
+  border: 2px solid lightgrey;
+  padding: 12px 35px;
+}
+
+.button-green {
+  background-color: #92C62C;
+}
+
+.page-main {
+  background-color: green;
+}
+
+.sub-header {
+  background-color: #D3D3D3;
+  position: relative;
+  height: 120px;
+  text-align: center;
+}
+
+.sub-header-wrapper {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sub-header-wrapper h2{
+  padding-bottom: 10px;
+}
+
+.container {
+  background-color: #fff;
+  
+  width: 85%;
+  margin: 0 auto;
+
+}
+.container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.container .col{
+  float: left;
+  width: calc(100%/3);
+}
+.page-footer {
+  background-color: #d3d3d3;
+}
